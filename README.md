@@ -41,23 +41,33 @@
 1. 캐릭터
    - 액터 컴퍼넌트 'SkillSystemComponent'를 이용하여 캐릭터 코드 과집중 방지
    - 데이터 에셋 'Skill' 스킬관련 정보 사용
-   - 'SkillSystemComponent'로부터 'Skill/SkillINS', 'AnimNotify', 'AttackParticle/Projectile'로 이어지는 스킬 흐름
+   - 'SkillSystemComponent'로부터 'Skill/SkillINS', 'AnimNotify', 'AttackParticle/Projectile'로 이어지는 스킬 흐름<br><br>
+   ![전사 스킬](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Skill_Warrior.png)<br>
+   ![마법사 스킬](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Skill_Mage.png)<br>
 ---
 3. 퀘스트 시스템
    - 퀘스트 관련 정보 데이터 테이블에서 관리
    - 'SMSQuest'를 상속받은 'Quest'들에서 각자의 퀘스트 정보 관리
-   - 현재 플레이어의 진행중인 퀘스트와 완료 퀘스트를 'QuestManager'가 관리
+   - 현재 플레이어의 진행중인 퀘스트와 완료 퀘스트를 'QuestManager'가 관리<br><br>
+   ![퀘스트 전](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Quest_Before.png)<br>
+   ![퀘스트 중](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Quest.png)<br>
+   ![퀘스트 후](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Quest_After.png)<br>
 ---
 5. 탑승물
    - 'SMSCharacter'캐릭터에서 'SMSRiding'캐릭터로 Possess 전환
-   - Attach를 이용해, 'SMSCharacter'를 'SMSRiding'캐릭터에 부착
+   - Attach를 이용해, 'SMSCharacter'를 'SMSRiding'캐릭터에 부착<br><br>
+   ![탑승 전](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Riding_Before.png)<br>
+   ![탑승 후](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Riding_After.png)<br>
 ---
 7. 커스터마이징
    - MaterialInstanceDynamic을 이용하여 캐릭터의 머티리얼을 동적으로 변경
    - 커스터마이징은 슬라이더 값을 통한 변경과 프리셋 적용 버튼을 통한 변경 두가지로 구분
-   - 플레이어의 커스터마이징 선택정보를 'CustomizingManager'가 적용 후 데이터 테이블에서 저장 및 관리
+   - 플레이어의 커스터마이징 선택정보를 'CustomizingManager'가 적용 후 데이터 테이블에서 저장 및 관리<br><br>
+   ![커스터마이징 전](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Cutomizing_Before.png)<br>
+   ![커스터마이징 후](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Cutomizing_After.png)<br>
 ---
 9. 결과창
    - 캐릭터의 직업에 따라 다른 결과창 이미지 출력
    - 모든 플레이어들의 정보를 AddChild하여 스크롤박스에 부착
-   - 닉네임, 레벨, 데미지량 등을 표기
+   - 닉네임, 레벨, 데미지량 등을 표기<br><br>
+   ![결과창](https://github.com/JungKunShin/SMSRPG/blob/main/Image/Result.png)<br>
