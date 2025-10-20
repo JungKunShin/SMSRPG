@@ -32,5 +32,5 @@
   - AI System(NPC / 적 행동 제어)
 - Data Handling : DataTable (CSV)
 - VFX / SFX : Sound Wave, Audio Component, Niagara, Particle System
-- Tools : Blueprint, Behavior Tree, Material Editor, Sequencer etc
+- Tools : Blueprint, Behavior Tree, Material Editor, Sequencer, Material Instance Dynamic etc
 <br><br>
